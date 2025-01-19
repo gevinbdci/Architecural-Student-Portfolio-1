@@ -3,8 +3,8 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(14, 116, 75, 0.87);
+  background-color: #c6c6c6be;
 }
 
 * {
@@ -83,6 +83,7 @@ h1 {
   display: flex;
   justify-content: center;
   padding-top: 5em;
+  font-weight: bold;
 }
 
 .three-model {
@@ -130,11 +131,22 @@ img {
   /* Center description content */
   display: flex;
   align-items: center;
-  height: 4em;
+  height: 2em;
+  width: 35em;
+  font-weight: bold;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+#description2 {
+  /* Center description content */
+  display: flex;
+  align-items: center;
+  height: 2em;
   width: 35em;
   font-weight: 100;
   margin-left: 2em;
-  margin-top: 3em;
+  margin-top: 2em;
 }
 
 @media screen and (max-width: 768px) {
