@@ -41,7 +41,8 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       Assignment 1: Cadavre Exquis
         <div class="three-model">
-          <img src="./Project1/Untitled1.png" id="model1" alt="Model 1 Image" />
+          <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project1/GatilogoCE.jpg" target="_blank">
+            <img src="./Project1/GatilogoCE.jpg" id="model1" alt="Model 1 Image" />
         </div>
         <div id="images-description">
 
