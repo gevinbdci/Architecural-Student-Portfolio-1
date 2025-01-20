@@ -61,19 +61,19 @@ document.querySelector("#app").innerHTML = `
             <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project1/CE1.jpg" target="_blank">
               <img src="./Project1/CE1.jpg" alt="CE1" />
             </a>
-            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Linkedpics/CE2.jpg" target="_blank">
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project1/CE2.jpg" target="_blank">
               <img src="./Project1/CE2.jpg" alt="CE2" />
             </a>
-            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Linkedpics/CE3.jpg" target="_blank">
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project1/CE3.jpg" target="_blank">
               <img src="./Project1/CE3.jpg" alt="CE3" />
             </a>
-            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Linkedpics/CE4.jpg" target="_blank">
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project1/CE4.jpg" target="_blank">
               <img src="./Project1/CE4.jpg" alt="CE4" />
             </a>
           </div>
 
           <h4 id="description">'Humanity in the Illusions of Time'</h4>
-            <h4 id="description2">Our first assigned assignment. My core philosophy comes from the curiosity of the purpose of humanity in existence. Why and how do we exist? My philosophy will focus on four main components: Space, Time, Rock, and Equal. These words will compose and ponder on the meaning and manifesto of my Cadavre Exquis.</h4>
+            <h4 id="description2">Our first assigned assignment. My core philosophy comes from the curiosity of the purpose of humanity in existence. Why and how do we exist? My philosophy will focus on four main components: Space, Time, Rock, and Equal. These words will compose and ponder on the meaning and manifesto of my Cadavre Exquis. I can imagine that, each individual are born and will die equally. We are all equally living/breathing in the same floating rock in space where time can be irrelevant. Time that can be an illusion or be infinite.</h4>
         </div>
       </div>
 

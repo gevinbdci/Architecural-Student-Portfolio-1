@@ -37,7 +37,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #333;
+  background-color: #222121;
   color: white;
   z-index: 10;
 }
@@ -96,8 +96,8 @@ h1 {
 #model1,
 #model2,
 #model3 {
-  height: 400px;   
-  width: 550px;
+  height: 360px;   
+  width: 470px;
   margin-right: 3em;
   margin-left: 3em;
   border: 2px solid #0d8466;
@@ -147,7 +147,7 @@ img {
   width: 35em;
   font-weight: 100;
   margin-left: 2em;
-  margin-top: 2em;
+  margin-top: 5em;
 }
 
 @media screen and (max-width: 768px) {
