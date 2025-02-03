@@ -30,6 +30,13 @@ const Project1 = [
   "./Project1/CE4.jpg",
 ];
 
+const Project2 = [
+  "./Project2/Chart1.png",
+  "./Project2/Chart2.png",
+  "./Project2/Chart3.png",
+  "./Project2/ChartOverall.jpg",
+];
+
 document.querySelector("#app").innerHTML = `
   <main id="container">
     <section id="heading">
@@ -77,25 +84,35 @@ document.querySelector("#app").innerHTML = `
         </div>
       </div>
 
-      ${/* Model 3 Commented out
+
       <div id="project-row">
-      Model 2
+      Assignment 2: Interoperability
         <div class="three-model">
-          <div id="model2"></div>
+          <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project2/ChartOverall.jpg" target="_blank">
+            <img src="./Project2/ChartOverall.jpg" id="model2" alt="Model 2 Image" />
         </div>
         <div id="images-description">
+          
           <div id="images">
-            ${trees
-              .map(
-                (trees, index) =>
-                  `<img src="${trees}" alt="tree${index + 1}" />`
-              )
-              .join("")}
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project2/Chart1.png" target="_blank">
+              <img src="./Project2/Chart1.png" alt="Chart1" />
+            </a>
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project2/Chart2.png" target="_blank">
+              <img src="./Project2/Chart2.png" alt="Chart2" />
+            </a>
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project3/Chart3.png" target="_blank">
+              <img src="./Project2/Chart3.png" alt="Chart3" />
+            </a>
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project2/Models.png" target="_blank">
+              <img src="./Project2/Models.png" alt="Models" />
+            </a>
           </div>
-          <h4 id="description">A 3D tree model is a geometric representation of a tree, featuring a trunk, branches, and foliage. The trunk is typically cylindrical, with textured bark, while the branches extend outward to support leaves or a canopy. It may include roots or flowers for added detail.</h4>
+
+          <h4 id="description">'Geo and Interoperability'</h4>
+            <h4 id="description2">Interoperability is an interesting way of finding data and using it for design in terms of applying different methods into a single output, especially in 3D modelling. Making the analyzing chart has shown me how to create a system to differentiate the varying methods to use for the 3D design. It may be time consuming, but the results of the data can be very informing. From the charts, I found out the differences of the conversions. Some may have similar characteristics. </h4>
         </div>
       </div>
-      */""}
+
 
       ${/* Model 3 Commented out
       <div id="project-row">
@@ -120,12 +137,8 @@ document.querySelector("#app").innerHTML = `
     <ul id="footer-items">
       <li>Email: ${data.contact.email}</li>
       <li>Phone: ${data.contact.phone}</li>
-      <li>LinkedIn: <a href="${data.contact.linkedin}">${
-  data.contact.linkedin
-}</a></li>
-      <li>GitHub: <a href="${data.contact.github}">${
-  data.contact.github
-}</a></li>
+      <li>LinkedIn: <a href="${data.contact.linkedin}">${data.contact.linkedin}</a></li>
+      <li>GitHub: <a href="${data.contact.github}">${data.contact.github}</a></li>
     </ul>
   </main>
 `;
