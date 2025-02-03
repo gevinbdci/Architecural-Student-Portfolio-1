@@ -100,7 +100,7 @@ document.querySelector("#app").innerHTML = `
             <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project2/Chart2.png" target="_blank">
               <img src="./Project2/Chart2.png" alt="Chart2" />
             </a>
-            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project3/Chart3.png" target="_blank">
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project2/Chart3.png" target="_blank">
               <img src="./Project2/Chart3.png" alt="Chart3" />
             </a>
             <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project2/Models.png" target="_blank">
