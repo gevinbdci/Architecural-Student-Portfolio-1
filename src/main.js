@@ -149,4 +149,4 @@ document.querySelector("#app").innerHTML = `
 //createThreeScene("#model1", "/3DModels/project1/cube.obj");
 //createThreeScene("#model2", "/3DModels/project2/tree.obj");
 //createThreeScene("#model3", "/3DModels/project3/cottage.obj");
-createThreeScene("#model2", "/3DModels/project3/cottage.obj");
+createThreeScene("#model2", "/objfiles/Models.obj");
