@@ -88,8 +88,10 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       Assignment 2: Interoperability
         <div class="three-model">
-          <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project2/ChartOverall.jpg" target="_blank">
+        ${/*<a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project2/ChartOverall.jpg" target="_blank">
             <img src="./Project2/ChartOverall.jpg" id="model2" alt="Model 2 Image" />
+        */""}
+          <div id="model2"></div>
         </div>
         <div id="images-description">
           
@@ -147,3 +149,4 @@ document.querySelector("#app").innerHTML = `
 //createThreeScene("#model1", "/3DModels/project1/cube.obj");
 //createThreeScene("#model2", "/3DModels/project2/tree.obj");
 //createThreeScene("#model3", "/3DModels/project3/cottage.obj");
+createThreeScene("#model2", "/3DModels/project3/cottage.obj");
