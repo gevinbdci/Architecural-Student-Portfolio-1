@@ -178,13 +178,13 @@ document.querySelector("#app").innerHTML = `
             <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project4/1pot.png" target="_blank">
               <img src="./Project4/1pot.png" alt="1pot" />
             </a>
-            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project1/CE2.jpg" target="_blank">
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project4/2pot.png" target="_blank">
               <img src="./Project4/2pot.png" alt="2pot" />
             </a>
-            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project1/CE3.jpg" target="_blank">
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project4/3pot.png" target="_blank">
               <img src="./Project4/3pot.png" alt="3pot" />
             </a>
-            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project1/CE4.jpg" target="_blank">
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project4/4pot.png" target="_blank">
               <img src="./Project4/4pot.png" alt="4pot" />
             </a>
           </div>
