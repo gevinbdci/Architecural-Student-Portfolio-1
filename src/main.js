@@ -37,6 +37,27 @@ const Project2 = [
   "./Project2/ChartOverall.jpg",
 ];
 
+const Project3 = [
+  "./Project3/1ctd.png",
+  "./Project3/2ctd.png",
+  "./Project3/3ctd.png",
+  "./Project3/4ctd.png",
+];
+
+const Project4 = [
+  "./Project4/1pot.png",
+  "./Project4/2pot.png",
+  "./Project4/3pot.png",
+  "./Project4/4pot.png",
+];
+
+const Project5 = [
+  "./Project5/1tww.png",
+  "./Project5/2tww.png",
+  "./Project5/3tww.png",
+  "./Project5/4tww.png",
+];
+
 document.querySelector("#app").innerHTML = `
   <main id="container">
     <section id="heading">
@@ -115,25 +136,93 @@ document.querySelector("#app").innerHTML = `
         </div>
       </div>
 
-
-      ${/* Model 3 Commented out
+ 
       <div id="project-row">
-      Model 3
+      Assignment 3: Object Design
         <div class="three-model">
-          <div id="model3"></div>
+          <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project3/P3cover.png" target="_blank">
+            <img src="./Project3/P3cover.png" id="model1" alt="Model 1 Image" />
         </div>
         <div id="images-description">
+        
           <div id="images">
-            ${cubes
-              .map(
-                (cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`
-              )
-              .join("")}
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project3/1ctd.png" target="_blank">
+              <img src="./Project3/1ctd.png" alt="1ctd" />
+            </a>
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project3/2ctd.png" target="_blank">
+              <img src="./Project3/2ctd.png" alt="2ctd" />
+            </a>
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project3/3ctd.png" target="_blank">
+              <img src="./Project3/3ctd.png" alt="3ctd" />
+            </a>
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project3/4ctd.png" target="_blank">
+              <img src="./Project3/4ctd.png" alt="4ctd" />
+            </a>
           </div>
-          <h4 id="description">A 3D house model is a geometric representation of a house, featuring walls, a roof, and windows. It often includes additional details such as doors, chimneys, and balconies, with textures like brick, wood, or stucco to enhance realism. The interior may also feature rooms, furniture, and lighting for a more detailed design.</h4>
+
+          <h4 id="description">'CTD / Complicated Time Device'</h4>
+            <h4 id="description2">'CTD' also known as 'Complicated Time Device' plays with the concept of time manipulation. It features a time stop, time rewind, and a one-time forward travel. In a fictional world, the story of this clock is mysterious. None other than the user can only see and know this device exists. The purpose of this device is to give the user a chance to relive their past and find some meaning from it, at least.</h4>
         </div>
       </div>
-      */""}
+
+
+      <div id="project-row">
+      Assignment 4: Placemaking
+        <div class="three-model">
+          <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project4/P4cover .png" target="_blank">
+            <img src="./Project4/P4cover .png" id="model1" alt="Model 1 Image" />
+        </div>
+        <div id="images-description">
+
+          <div id="images">
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project4/1pot.png" target="_blank">
+              <img src="./Project4/1pot.png" alt="1pot" />
+            </a>
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project1/CE2.jpg" target="_blank">
+              <img src="./Project4/2pot.png" alt="2pot" />
+            </a>
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project1/CE3.jpg" target="_blank">
+              <img src="./Project4/3pot.png" alt="3pot" />
+            </a>
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project1/CE4.jpg" target="_blank">
+              <img src="./Project4/4pot.png" alt="4pot" />
+            </a>
+          </div>
+
+          <h4 id="description">'Passage of Time'</h4>
+            <h4 id="description2">Explores the evolution of architecture through a form that symbolizes the flow and passage of time. From the ground up, the past serves as the foundation for contemporary designs, while continuously influencing speculative futures. The title, Passage of Time, draws on the dual meaning of "passage"—representing both the journey through generations and lifetimes, and the structural embodiment of change that evolves over time.</h4>
+        </div>
+      </div>
+
+
+      <div id="project-row">
+      Assignment 5: Game Engines
+        <div class="three-model">
+          <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project5/P5cover.png" target="_blank">
+            <img src="./Project5/P5cover.png" id="model1" alt="Model 1 Image" />
+        </div>
+        <div id="images-description">
+
+
+          <div id="images">
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project5/1tww.png" target="_blank">
+              <img src="./Project5/1tww.png" alt="1tww" />
+            </a>
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project5/2tww.png" target="_blank">
+              <img src="./Project5/2tww.png" alt="2tww" />
+            </a>
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project5/3tww.png" target="_blank">
+              <img src="./Project5/3tww.png" alt="3tww" />
+            </a>
+            <a href="https://gevin-gatilogo-architecural-student-portfolio-1-coral.vercel.app/Project5/4tww.png" target="_blank">
+              <img src="./Project5/4tww.png" alt="4tww" />
+            </a>
+          </div>
+
+          <h4 id="description">'Timeless (Wonder) Wasteland'</h4>
+            <h4 id="description2">In this final project, my thought process was to incorporate the theme of time with the overarching assignment and final studio outcomes together. From there, the ‘Timeless Wonder Wasteland‘ was created. In this setting, the avatar/characters find that they are lost in a wasteland of objects (representing all the assignments and studio outcomes) and transverse through what seems to be a timeless void. No words, no sounds, no voices, and no other living beings. Just an open timeless floating world in ruins, after being transported through an indefinite spatial metaverse reality.</h4>
+        </div>
+      </div>
     </section>
 
     <ul id="footer-items">
